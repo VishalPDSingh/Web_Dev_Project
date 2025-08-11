@@ -1,0 +1,31 @@
+*
+{
+    border: 1px solid green;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+
+    border: 1px solid red;
+    width: 50%;
+}
+
+ul{
+    text-align: end;
+    padding: 60px;
+    background-color:black;
+    color: white;
+}
+li{
+    display: inline;
+    padding: 30px;
+    margin: 12px;
+
+}
+li:hover{
+    color: pink;
+    cursor: pointer;
+
+}
