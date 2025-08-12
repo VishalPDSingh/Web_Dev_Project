@@ -1,0 +1,111 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.outer
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( to top left, #3ed8ff, #a8f5fa);
+}
+
+.inner-box
+{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    transform: translate(-50);
+    padding: 20px 40px;
+    /* background-color: #ffffffcc; */
+    background: linear-gradient(to top left,#ffffff,#ffffff33);
+    backdrop-filter: blur(9px);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #02416b;
+    border: 2px solid #ccc;
+    z-index: 2;
+
+}
+
+.signup-header h1
+{
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.signup-header p
+{
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 4px;
+}
+
+.singup-body
+{
+    margin: 20px 0;
+}
+
+.singup-body p
+{
+    margin: 10px 0;
+}
+
+.singup-body p label
+{
+    display: block;
+    font-weight: bold;
+}
+
+.singup-body p input
+{
+    width: 100%;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   font-size: 1rem;
+}
+
+
+#submit
+{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover
+{
+    background-color: #02416b;
+}
+
+.signup-footer p a
+{
+    color: #02416b;
+    text-align: center;
+}
+
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, #ffffff33,#ffffffaa);
+    position: absolute;
+}
+
+.c1
+{
+    top: 100px;
+    left: 40px;
+}
+
+.c2
+{
+    bottom: 200px;
+    right: 50px;
+}
