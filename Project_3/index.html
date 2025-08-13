@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply-box">
+        <h1>Job Application <span class="title-small">(Web)</span></h1>
+        <form id="jobForm" action="/submit" method="POST">
+          <!-- First Name -->
+          <div class="form-items">
+            <label for="fName">First Name</label>
+            <input
+              type="text"
+              id="fName"
+              name="firstName"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- Last Name -->
+          <div class="form-items">
+            <label for="lName">Last Name</label>
+            <input
+              type="text"
+              id="lName"
+              name="lastName"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- Email -->
+          <div class="form-items">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- Job Role -->
+          <div class="form-items">
+            <label for="jrole">Job Role</label>
+            <select name="jobRole" id="jrole" required aria-required="true">
+              <option value="">Select Job Role</option>
+              <option value="frontend">Frontend Developer</option>
+              <option value="backend">Backend Developer</option>
+              <option value="fullstack">Full Stack Developer</option>
+              <option value="uiux">UI/UX Designer</option>
+            </select>
+          </div>
+
+          <!-- Address -->
+          <div class="form-items">
+            <label for="address">Address</label>
+            <textarea
+              name="address"
+              id="address"
+              rows="4"
+              cols="50"
+              placeholder="Enter Address"
+              required
+              aria-required="true"
+            ></textarea>
+          </div>
+
+          <!-- City -->
+          <div class="form-items">
+            <label for="city">City</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- Pincode -->
+          <div class="form-items">
+            <label for="pin">Pincode</label>
+            <input
+              type="number"
+              id="pin"
+              name="pincode"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- Start Date -->
+          <div class="form-items">
+            <label for="date">Start Date</label>
+            <input
+              type="date"
+              id="date"
+              name="startDate"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <!-- CV -->
+          <div class="form-items">
+            <label for="cv">Upload CV</label>
+            <input
+              type="file"
+              id="cv"
+              name="cv"
+              accept=".pdf,.doc,.docx"
+              required
+              aria-required="true"
+            />
+          </div>
+
+          <button type="submit" class="submit-btn">Apply</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
